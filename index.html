@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+    <h1 id="title">Registration Form</h1>
+    <p id="describe-form">Please fill out this form</p>
+    <fieldset>
+        <label for="first-name">Enter your first name:<input type="text" id="first-name" required></label>
+        <label for="last-name">Enter your last name:<input type="text" id="last-name" required></label>
+        <label for="birthday">Enter your birthday:<input type="date" id="birthday" required></label>
+        <label for="email">Enter your email:<input type="email" id="email" required> </label>
+        <label for="new-password">Enter your new password:<input type="password" id="new-password" pattern="[a-z0-5]"></label>
+    </fieldset>
+    <fieldset>
+        <legend>Account type</legend>
+        <label for="personal-account"><input class="inline" id="personal-account" name="account-type" type="radio"
+            checked>
+        Personal</label>
+    <label for="student-account"><input class="inline" id="student-account" name="account-type" type="radio">
+        Student</label>
+    </fieldset>
+</form>
+</body>
+</html>
+
+<p id="descripcion" title="Este es un cuadro emergente con información adicional.">Este es un párrafo con una descripción en el atributo title.</p>
+
