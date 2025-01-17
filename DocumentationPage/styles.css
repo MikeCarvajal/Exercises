@@ -1,0 +1,103 @@
+body{
+    min-width: 290px;
+    background-color: whitesmoke;
+    display: block;
+    margin-top: 8px;
+
+}
+#navbar{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid;
+    z-index: 1;
+
+}
+header{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+}
+#navbar ul{
+    border: 1px solid;
+    height: 120px;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+ul, menu {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+#navbar li{
+    color: steelblue;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+
+}
+li{
+    display: list-item;
+    text-align:match-parent;
+
+}
+#navbar a{
+    display: block;
+    padding: 10px 30px;
+    color: cadetblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+#main-doc{
+    margin-left: -10px;
+    position: relative;
+    margin-top: 270px;
+    padding: 20px;
+    margin-bottom: 110px;
+
+}
+#main-doc header{
+    text-align: left;
+    margin: 0px;
+
+}
+section article{
+    color: black;
+    margin: 15px;
+    font-size: 1em;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+@media only screen and (max-width:815px){
+    #navbar{
+        background-color: white;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid;
+        z-index: 1;
+    
+    }
+}
+
+
